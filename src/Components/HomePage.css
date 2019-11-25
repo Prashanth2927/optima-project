@@ -1,0 +1,453 @@
+
+.header{
+  padding-left: 0px;
+  padding-right: 0px;
+  
+}
+
+.heading{
+  background: #006a4d;
+  color:#fff;
+}
+
+.Rectangle-2 {
+  display: flex;
+  height: 70px;
+  background-color: #ffffff;
+  border: solid 1px rgba(196, 198, 205, 0.42);
+}
+
+.OPEN-BANK {
+  object-fit: contain;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #006a4d;
+}
+
+.notification-1 {
+  width: 21px;
+  height: 26px;
+  object-fit: contain;
+}
+.Alice-Salas {
+  font-family: Open   Sans;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.img_user {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+
+.logout{
+  cursor: pointer;
+}
+
+/*sidebar*/
+.ic_home {
+  width: 24px;
+  height: 21px;
+  object-fit: contain;
+}
+
+.sidebar-wrapper {
+  width: 5%;
+
+}
+
+
+/*banner*/
+.My_financials {
+  font-family: Open Sans;
+  font-size: 28px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.Savings-accounts1 {
+  opacity: 0.66;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.layer1 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.Credit-Accounts1 {
+  opacity: 0.66;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 19px;
+}
+.Want-to-reduce-your1 {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.Rectangle-41 {
+  width: 159px;
+  height: 55px;
+  border-radius: 3px;
+  background-color: #66980c;
+}
+.YES1 {
+  width: 47px;
+  height: 22px;
+  border-radius: 3px;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 1.7px;
+  font-family: Open Sans
+
+}
+
+.Rectangle-41:active{
+  background-color: #5d8a0c;
+}
+.Rectangle-41:hover{
+  background-color: #5d8a0c;
+}
+
+.title, .Rectangle-3 {
+  width: 100%;
+  margin: 0 15px;
+}
+
+.banner-11 {
+  display: flex;
+  flex-direction: row;
+  background-size: 94%;
+  padding: 2.5%;
+  width:1250px;
+  height:40%;
+  background-repeat:no-repeat; 
+}
+
+.banner-11 div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  padding-right: 7%;
+  border-right: 2px solid rgba(255, 255, 255, .5);
+}
+
+.banner-11 div:nth-child(1) span {
+  padding-left: 7%;
+  flex-direction: column;
+  padding-right: 11%;
+}
+
+.banner-11 > div:nth-child(2) {
+  width: 30%;
+  padding-left: 7%;
+}
+
+.banner-11 div:nth-child(3) {
+  width: 50%;
+  padding-left: 11%;
+}
+
+/*balance*/
+.banner {
+  width: 860px;
+  height: 199px;
+  border-radius: 6px;
+  background-image: linear-gradient(292deg, #022120, #006a4d, #006a4d);
+}
+
+.paper {
+  width: 416px;
+  height: 450px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  margin: 3%;
+  padding: 5px
+}
+
+.outer-layer{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.tooltip_background {
+  width: 100%;
+  height: 222px;
+  background-color: #ffffff;
+
+}
+
+.bank {
+
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9b9b9b;
+}
+
+.JP_Morgan_Chase {
+
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.outer-layer2{
+  margin-top: 20px;
+}
+
+.credit-accounts {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.line {
+  border-right: solid 0.4px #979797;
+  width: 3px;
+  height: 45px;
+}
+
+.line-1 {
+  border-right: solid 0.4px #979797;
+  width: 3px;
+  height: 45px;
+  margin-top : 5px;
+}
+
+.img-credit{
+  width: 30%;
+}
+
+.detail-credit {
+  width: 50%;
+}
+
+.name-credit {
+  font-weight: 750;
+  width: 13%;
+  height: 50px;
+}
+
+.name-credit p {
+  margin: 0;
+  text-align: right;
+  font-size: 15px;
+}
+
+.name-credit p,
+.amount-credit b {
+  line-height: 55px;
+}
+
+.amount-credit span {
+  padding-right: 3px;
+}
+
+.line,
+.line-1 {
+  width: 7%;
+}
+
+.img-credit,
+.detail-credit,
+.name-credit,
+.line,
+.line-1{
+  display: inline-block;
+  float: left;
+}
+.credit{
+  font-size: 1vw;
+  padding: 3%;
+  padding-left: 5%;
+}
+
+.detail-credit small {
+  font-size: 10px;
+  padding: 0;
+}
+
+.detail-credit b {
+  width: 100%;
+  display: block;
+}
+
+.detail-credit div {
+  line-height: 10px;
+}
+
+.bankName {
+  padding-bottom: 5px;
+}
+
+.payout-button{
+  width: 260px;
+  height: 65px;
+  border-radius: 3px;
+  background-color: #c62745;
+
+}
+
+.balance-wrapper > div:first-child {
+  margin-right: 3% !important;
+}
+
+.balance-wrapper > div:nth-child(2) {
+  margin: 3% 0 0 3% !important;
+}
+
+.outer-layer2 .col-3,
+.outer-layer .col-3 {
+  padding-left: 0;
+}
+.optimize-btt > div:first-child {
+  width: 60%;
+  line-height: 55px;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  float: left;
+  bottom: 2px;
+}
+
+.optimizeBtn > div {
+  width: 100% !important;
+}
+
+.optimize-btt > div:nth-child(2) {
+  width: 40%;
+  line-height: 50px;
+  display: inline-block;
+
+}
+.optimize-btt {
+  width: 266px;
+  height: 65px;
+  border-radius: 3px;
+  background-color: #66980c !important;
+  box-shadow: 0 9px 19px 0 rgba(43, 63, 8, 0.38);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+.detail-credit b {
+  padding-left: 0;
+}
+
+.payout-button div {
+  float: left;
+}
+
+.btn-text-wrapper {
+  width: inherit;
+  height: inherit;
+}
+
+.btn-text {
+  width: 60%;
+  line-height: 55px;
+  text-align: right;
+  padding-right: 7%;
+}
+
+.btn-arrow {
+  width: 40%;
+  line-height: 55px;
+}
+
+.btn-arrow i {
+  font-size: 21px;
+  width: 100%;
+  position: absolute;
+  left: 53px;
+  line-height: 55px;
+}
+
+.fa-chart-bar {
+  width: 22px;
+  color: darkseagreen;
+  cursor: pointer;
+}
+
+#component .tooltip {visibility: hidden}
+#component:hover .tooltip {
+  visibility: visible;
+}
+.tooltip text {
+  fill: black;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.tooltip rect {
+  fill: yellow;
+  stroke: blue;
+}
+
+
+
+
+
+
