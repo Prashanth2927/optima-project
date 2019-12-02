@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import {Paper} from 'paper-react';
 import Header from './Header';
-import Demo from './demo';
+import Demo from './Demo';
 import Card from './Card';
 
 const HomePage = () => {
@@ -70,7 +70,9 @@ expenses ? </span>
 
            </div>
       <div style={{ marginLeft:'50px'}}>   
-     <Card />
+
+ <Card />
+
 </div>
   
 
