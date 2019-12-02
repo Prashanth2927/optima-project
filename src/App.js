@@ -17,41 +17,21 @@ import Header from './Components/Header';
 
 class App extends Component {
 
-  /*const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-device-width: 1224px)'
-  })
-  const isBigScreen = useMediaQuery({ query: '(min-device-width: 1824px)' })
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
-  const isTabletOrMobileDevice = useMediaQuery({
-    query: '(max-device-width: 1224px)'
-  })
-  const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
-  const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
- */
+  
 render(){
- /*let HomePage = null;
- if(this.state.showHome){
-HomePage = { HomePage };
-
-
-
-}*/
 
   return (
-    <React.Fragment>
-      <Router>
+    <Router>
     <div className="App">
-    
-     <Login />
-     
-     <Switch>
- 
-    <Route path="/HomePage" component={HomePage} />
-    </Switch>
-    
+      <Switch>
+      <Route exact path="/" component={Login} />
+      <Route path="/HomePage" component={HomePage} />
+      </Switch>
     </div>
-    </Router>
-   </React.Fragment>
+  </Router>
+    
+    
+    
   
   );
 }
