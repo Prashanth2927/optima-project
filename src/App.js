@@ -21,20 +21,20 @@ class App extends Component {
 render(){
 
   return (
-   /* <Router>
+   <Router>
     <div className="App">
       <Switch>
       <Route exact path="/" component={Login} />
       <Route path="/HomePage" component={HomePage} />
       </Switch>
     </div>
-  </Router>*/
+  </Router>
 
-  <div className="App">
+  /*<div className="App">
     <Demo />
 
     </div>
-    
+    */
     
     
   
