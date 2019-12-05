@@ -1,11 +1,45 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './Login.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './HomePage';
 import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 
-const Login = () => {
-   
+class Login extends React.Component{
+  constructor(){
+  super();
+  this.state={
+    username:'',
+    password:'',
+    
+  };
+  
+  } 
+
+  handleUsername=(event)=>{
+    this.setState({
+   username:event.target.value
+    }) 
+  }
+  
+  handlePassword=(event)=>{
+    this.setState({
+   password:event.target.value
+    }) 
+  }
+
+  handleSubmit = () => {
+  
+    if(this.state.username=='prashanth'&&this.state.password=='29'|| 
+      this.state.username=='ravi'&&this.state.password=='13' )
+    {
+      this.props.history.push('/HomePage',{username:this.state.username})
+      
+    }
+    else
+    alert('Invalid user')
+  }
+
+  render(){
     return(
 <div style={{ width: '100%', overflow: 'hidden' }}>
 <div className='login container-fluid'>
@@ -21,6 +55,7 @@ const Login = () => {
 </div>
 
 <div className='col-7' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+<form onSubmit={this.handleSubmit}>
 <div className='Login_Background' style={{ paddingTop: '49px', paddingLeft: '38px' }}>
   <div className='Sign_in_to_your_account'>
     Sign in to your account
@@ -39,9 +74,9 @@ const Login = () => {
         
         </div>
         <div>
-        <input type='text' className='field_outline' style={{ marginTop: '28px' }}
+        <input type='text' value={this.state.username} onChange={this.handleUsername} className='field_outline' style={{ marginTop: '28px' }}
           placeholder='User name'  id="username" autoFocus={true} />
-        <input type='password' className='field_outline' style={{ marginTop: '13.9px' }}
+        <input type='password' value={this.password} onChange={this.handlePassword} className='field_outline' style={{ marginTop: '13.9px' }}
           placeholder='Password'  id="password"  />
         </div>
           <div style={{ marginTop: '19.9px' }}>
@@ -53,22 +88,23 @@ const Login = () => {
           </div>
         </div>
 
-        <Link to="/HomePage">
-        <button className='button_background ' style={{
+       
+        <button type= 'submit'  className='button_background ' style={{
           display: 'flex', alignItems: 'center',
           justifyContent: 'center', cursor: 'pointer'
         }}
          >
           SIGN IN  
         </button>
-    </Link>
+  
    
 </div>
+</form>
 </div>
 </div>
 </div>
 </div>
     );
-}
+}}
 
 export default Login;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {component} from 'react';
 import './HomePage.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
@@ -6,12 +6,25 @@ import {Paper} from 'paper-react';
 
 
 class Header extends React.Component {
+  constructor(){
+    super();
+    this.state={
+      username:''
+    }
+}
+
+componentDidMount(){
+  this.setState({
+    username:this.props.location.state.username
+  })
+}
+  
   render(){
     return(
    
     <React.Fragment >
     
-  <div classname='heading' style={{ position: 'fixed', width: '100%',  top: '0', zIndex: '10' }}>
+  <div className='heading' style={{ position: 'fixed', width: '100%',  top: '0', zIndex: '10' }}>
    <div className='Rectangle-2' style={{ display: 'flex', justifyContent: 'space-between' }}>
      
      <div style={{ padding: "20px", cursor: 'pointer' }}>
@@ -27,7 +40,7 @@ class Header extends React.Component {
          <img className="img_user" src='images/img-u.png' />
        </div>
        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} className="col-3">
-         <span className='Alice-Salas' style={{ paddingRight: '7px', textTransform: 'capitalize' }}>Alice</span>
+  <span className='Alice-Salas' style={{ paddingRight: '7px', textTransform: 'capitalize' }}>{this.state.username}</span>
          <i className="fas fa-caret-down"></i>
        </div>
 
@@ -42,7 +55,7 @@ class Header extends React.Component {
   );
 
 
-}
-}
+}}
+
 
 export default Header;
