@@ -1,12 +1,11 @@
-{
-    "posts": [
+ [
       {
-        "title": "CopyRight Automatico",
-        "tags": "[JS]"
+        "username": "prashanth",
+        "password": "29"
       },
       {
-        "title": "HtmlWebpackPlugin Multiples HTML files",
-        "tags": "[JS, webpack]"
+        "username": "ravi",
+        "password": "13"
       }
     ]
-  }
+  
