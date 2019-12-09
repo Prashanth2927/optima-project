@@ -1,11 +1,6 @@
 import React,{Component} from 'react'
 import imagead from '../images/image-ad@3x.png'
-import card1 from '../images/cards/Credit/Barclays.png'
-import card2 from '../images/cards/Credit/RBS.png'
-import card3 from '../images/cards/Credit/NatWest.png'
-import card4 from '../images/cards/debit/Barclays.png'
-import card5 from '../images/cards/debit/HSBC.png'
-import card6 from '../images/cards/debit/Halifax.png'
+
 
 class Demo extends Component{
    
@@ -13,9 +8,27 @@ class Demo extends Component{
        super();
        this.state={
            DebitCards:[
-            {image:'Halifax.png' ,name:'Halifax', tag:'0.2% AER', tag2:'SB', tag3: '|', balance:'$2500'},
-            {image:'HSBC.png' ,name:'HSBC', tag:'0.1% AER', tag2:'PCA', tag3: '|', balance:'$2222'},
-            {image:'Barclays.png' ,name:'Barclays', tag:'0.33% AER', tag2:'SB', tag3: '|', balance:'$4414'},
+            {
+                image:'Halifax.png', 
+                name:'Halifax', 
+                tag:'0.2% AER', 
+                tag2:'SB',  
+                balance:'$2500'
+            },
+            {
+                image:'HSBC.png', 
+                name:'HSBC', 
+                tag:'0.1% AER', 
+                tag2:'PCA',  
+                balance:'$2222'
+            },
+            {
+                image:'Barclays.png', 
+                name:'Barclays', 
+                tag:'0.33% AER', 
+                tag2:'SB',  
+                balance:'$4414'
+            },
                   
                   
         ],
@@ -24,8 +37,7 @@ class Demo extends Component{
                 image:'NatWest.png' ,
                 name:'NatWest', 
                 tag:'0.2% AER', 
-                tag2:'CC', 
-                tag3: '|', 
+                tag2:'CC',
                 balance:'$2500'
             },
             {
@@ -33,7 +45,6 @@ class Demo extends Component{
                 name:'RBS', 
                 tag:'0.1% AER', 
                 tag2:'CC', 
-                tag3: '|', 
                 balance:'$2222'
             },
             {
@@ -41,7 +52,6 @@ class Demo extends Component{
                 name:'Barclays', 
                 tag:'0.33% AER', 
                 tag2:'M', 
-                tag3: '|', 
                 balance:'$4414'},
                   
         ]
